@@ -26,6 +26,11 @@ input[type="text"] {
   border: 1px solid black;
 }
 
+input[type="checkbox"] {
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
 #tasks {
   display: flex;
   flex-direction: column;
