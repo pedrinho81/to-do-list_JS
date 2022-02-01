@@ -7,6 +7,7 @@ form.onsubmit= (e) => {
     const inputField = document.getElementById("task-input").value
     addTask(inputField)
     console.log(inputField)
+    document.getElementById("task-input").focus()
 }
 
 function addTask(description) {
